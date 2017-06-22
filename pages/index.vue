@@ -29,11 +29,6 @@ export default {
     return {
       users: data
     }
-  },
-  head () {
-    return {
-      title: 'Users'
-    }
   }
 }
 </script>

@@ -3,11 +3,12 @@ module.exports = {
      ** Headers of the page
      */
     head: {
-        title: 'starter',
+        title: '唯品会手机购物正品商城：全球精选 正品特卖手机版',
         meta: [
             {charset: 'utf-8'},
             {name: 'viewport', content: 'width=device-width, initial-scale=1'},
-            {hid: 'description', name: 'description', content: 'Nuxt.js project'}
+            {name: 'keywords', content: '唯品会手机购物，正品商城，品牌特卖会'},
+            {name: 'description', content: '唯品会手机购物网以1-7折超低折扣对全球各大品牌进行限时特卖，商城内正品囊括服装、化妆品、家居、奢侈品等。100%正品、手机购物下单、货到付款、7天无条件退货。'},
         ],
         script: [
             // { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.slim.min.js' },
