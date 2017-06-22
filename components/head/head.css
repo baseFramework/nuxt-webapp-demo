@@ -1,0 +1,149 @@
+.u-header-wrap {
+    position: relative;
+}
+
+.header-placeholder, .u-header {
+    height: 1.17333rem;
+}
+
+.u-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    font-size: .48rem;
+    line-height: 1.17333rem;
+    color: #555;
+    text-align: center;
+    background: #fbfbfa;
+    zoom: 1;
+    clear: both;
+}
+
+.header-placeholder, .u-header {
+    height: 1.17333rem;
+}
+
+.u-header:before {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid #dedede;
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    -webkit-transform-origin: 0 0;
+    pointer-events: none;
+}
+
+.u-header .u-hd-left {
+    float: left;
+}
+
+.u-header .u-hd-left a {
+    display: block;
+    padding: 0 .26667rem;
+    height: 1.17333rem;
+}
+
+.u-header .u-hd-left a .icon-member {
+    font-size: .64rem;
+    color: #222;
+}
+.u-header .u-hd-left a span {
+    position: relative;
+    width: .56rem;
+    height: .53333rem;
+    margin-top: .34667rem;
+}
+
+.icon-member:before {
+    content: "\E023";
+}
+
+.u-header .u-hd-logolocation .u-hd-logo {
+    margin: .37333rem .13333rem 0;
+    float: left;
+}
+
+
+.u-header .u-hd-logolocation .u-hd-logo .u-icon-px {
+    font-size: .58667rem;
+    color: #de3d96;
+}
+.u-header .u-hd-logolocation .u-hd-logo a {
+    display: block;
+    width: 1.84rem;
+    height: .50667rem;
+    line-height: .50667rem;
+}
+
+.icon-new-logo:before {
+    content: "\E028";
+}
+
+.u-header .u-hd-logolocation .u-hd-location {
+    float: left;
+    height: 1.17333rem;
+    font-size: .37333rem;
+}
+
+.u-header .u-hd-logolocation .u-hd-location a {
+    display: inline-block;
+    margin-top: .48rem;
+    line-height: 1;
+}
+
+.u-header .u-hd-logolocation .u-hd-location a span {
+    margin-left: .08rem;
+    color: #555;
+}
+
+.u-header .u-hd-logolocation .u-hd-location a span.u-icon-px {
+    display: inline-block;
+    line-height: .32rem;
+    font-size: .32rem;
+    -webkit-transform: scale(.5);
+    transform: scale(.5);
+    vertical-align: bottom;
+    margin-left: -.05333rem;
+    color: #585c64;
+}
+
+.icon-arrow-down:before {
+    content: "\E002";
+}
+
+.u-header .u-hd-right {
+    float: right;
+}
+
+.u-header .u-hd-right a {
+    position: relative;
+    display: block;
+    padding: 0 .26667rem;
+    height: 1.17333rem;
+}
+
+.u-header .u-hd-right a .i-hd-search {
+    width: .61333rem;
+    height: .53333rem;
+    margin-top: .34667rem;
+    font-size: .64rem;
+    color: #222;
+}
+
+.u-header .index-loading {
+    height: 1.17333rem;
+    display: none;
+}
+
+.u-header .u-hd-logolocation {
+    display: inline-block;
+    height: 1.17333rem;
+}
+
+
+

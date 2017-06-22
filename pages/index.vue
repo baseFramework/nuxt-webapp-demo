@@ -1,6 +1,7 @@
 <template>
     <section>
         <my-downloads></my-downloads>
+        <my-head></my-head>
         <div class="container">
             <img src="../assets/img/logo.png" alt="Nuxt.js Logo" class="logo" />
             <h1 class="title">
@@ -20,10 +21,12 @@
 <script>
 import axios from '~plugins/axios'
 import MyDownloads from '../components/downloadbar/downloadbar.vue'
+import MyHead from '../components/head/head.vue'
 
 export default {
     components: {
-        MyDownloads
+        MyDownloads,
+        MyHead
     },
   async asyncData () {
     let { data } = await axios.get('/api/users')
