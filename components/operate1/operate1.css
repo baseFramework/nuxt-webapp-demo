@@ -1,0 +1,29 @@
+.operate {
+    background-color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.operate .operate-inner {
+    position: relative;
+    z-index: 2;
+}
+
+.operate a {
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.operate .countdown-inner:after, .operate .countdown-inner:before {
+    content: "";
+    display: table;
+}
+
+.operate .countdown-inner:after {
+    clear: both;
+}
+.operate .countdown-inner:after, .operate .countdown-inner:before {
+    content: "";
+    display: table;
+}
