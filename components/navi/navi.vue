@@ -23,6 +23,15 @@
                 <li>
                     <a href="javascript:void(0)" mars_sead="floating-index-bag_btn"> <span>鞋包</span> </a>
                 </li>
+                <li>
+                    <a href="javascript:void(0)" mars_sead="floating-index-bag_btn"> <span>运动</span> </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" mars_sead="floating-index-bag_btn"> <span>家居加点</span> </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" mars_sead="floating-index-bag_btn"> <span>唯品·奢</span> </a>
+                </li>
             </ul>
         </div>
     </div>
