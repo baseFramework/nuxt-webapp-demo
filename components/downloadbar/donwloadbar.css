@@ -1,0 +1,93 @@
+.top-download-bar {
+    display: none;
+    height: 1.73333rem;
+    position: relative;
+    width: 100%;
+    background: url(//ms2-m.vipstatic.com/static/base/img/4f32b4ff.download-banner.png) 0 0 no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    cursor: pointer;
+}
+
+.top-download-bar .download-link {
+    height: 1.73333rem;
+    display: block;
+}
+
+.top-download-bar .download-close {
+    position: absolute;
+    width: .64rem;
+    height: .64rem;
+    top: 0;
+    left: 0;
+    color: hsla(0,0%,100%,.6);
+    font-weight: 700;
+}
+
+[class*=" icon-"], [class^=icon-] {
+    font-family: icomoon;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.top-download-bar .download-text {
+    position: absolute;
+    top: 50%;
+    transform: translate3d(0,-50%,0);
+    -webkit-transform: translate3d(0,-50%,0);
+    left: 0;
+    color: #fff;
+    line-height: .53333rem;
+    font-size: .42667rem;
+    padding: 0 2.85333rem 0 2.82667rem;
+    box-sizing: border-box;
+    width: 100%;
+}
+.top-download-bar .download-text, .top-download-bar .download-text p {
+    max-width: 100%;
+    overflow: hidden;
+    word-break: break-all;
+    white-space: nowrap;
+    text-overflow: clip;
+}
+
+.top-download-bar .download-text .text {
+    font-size: .42667rem;
+}
+
+.top-download-bar .download-text a, .top-download-bar .download-text p {
+    color: #fff;
+}
+
+.top-download-bar .download-text, .top-download-bar .download-text p {
+    max-width: 100%;
+    overflow: hidden;
+    word-break: break-all;
+    white-space: nowrap;
+    text-overflow: clip;
+}
+
+.top-download-bar .download-text .sub-text {
+    font-size: .32rem;
+    margin-right: .13333rem;
+}
+.top-download-bar .download-text a, .top-download-bar .download-text p {
+    color: #fff;
+}
+.top-download-bar .download-text, .top-download-bar .download-text p {
+    max-width: 100%;
+    overflow: hidden;
+    word-break: break-all;
+    white-space: nowrap;
+    text-overflow: clip;
+}
+.top-download-bar .download-close:before {
+    margin-top: .10667rem;
+    margin-left: .10667rem;
+    display: inline-block;
+}
