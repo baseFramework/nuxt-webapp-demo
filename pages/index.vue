@@ -4,7 +4,7 @@
         <my-head></my-head>
         <my-navi></my-navi>
         <my-swipe></my-swipe>
-        <my-operate1></my-operate1>
+        <my-operate1 api="/api/operate1"></my-operate1>
         <div class="container">
 
         </div>
