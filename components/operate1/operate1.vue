@@ -34,7 +34,6 @@
             let me = this;
             let api = me.api;
             axios.get(api).then(function(res){
-                console.log(res.data);
                 me.products  = res.data
             })
         }
