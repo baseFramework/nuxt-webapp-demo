@@ -6,9 +6,7 @@
         <my-swipe></my-swipe>
         <my-operate1 api="/api/operate1"></my-operate1>
         <my-operate1 api="/api/operate2"></my-operate1>
-        <div class="container">
-
-        </div>
+        <my-brands></my-brands>
     </section>
 </template>
 
@@ -19,6 +17,7 @@ import MyHead from '../components/head/head.vue'
 import MyNavi from '../components/navi/navi.vue'
 import MySwipe from '../components/swipe/swipe.vue'
 import MyOperate1 from '../components/operate1/operate1.vue'
+import MyBrands from '../components/brandlist/brandlist.vue'
 
 export default {
     components: {
@@ -26,7 +25,8 @@ export default {
         MyHead,
         MyNavi,
         MySwipe,
-        MyOperate1
+        MyOperate1,
+        MyBrands
     },
   async asyncData () {
     let { data } = await axios.get('/api/users')

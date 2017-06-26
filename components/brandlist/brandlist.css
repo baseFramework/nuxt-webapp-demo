@@ -1,0 +1,83 @@
+.u-brand-wrap .u-brand-list {
+    max-width: 10rem;
+    margin: 0 auto .26667rem;
+}
+
+.u-brand-list .u-module-tit {
+    width: 100%;
+    padding: .45333rem 0 .10667rem;
+    font-size: .42667rem;
+    color: #000;
+    text-align: center;
+    line-height: 1;
+}
+
+ .u-brand-list .u-brand {
+    width: auto;
+    margin-top: .16rem;
+}
+
+ .u-brand-list .u-brand .p-relative {
+    position: relative;
+}
+
+ .u-brand-list .u-brand .p-relative .u-brand-pic {
+    width: 100%;
+    height: 0;
+    padding-bottom: 47.8476%;
+    overflow: hidden;
+}
+
+ .u-brand-list .u-brand .p-relative a {
+    display: block;
+}
+
+ .u-brand-list .u-brand .p-relative .u-brand-pic img {
+    width: 100%;
+}
+
+.u-brand-wrap {
+    background-color: #fff;
+}
+
+.u-brand-list .u-brand .u-brand-msg {
+    position: relative;
+    height: 1.09333rem;
+    width: 93.75%;
+    padding: 0 3.125%;
+    font-size: .42667rem;
+    color: #000;
+    line-height: 1.09333rem;
+}
+
+.u-brand-list .u-brand .u-brand-msg:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid #d8d8d8;
+    -webkit-transform: scaleY(.5);
+    -webkit-transform-origin: 0 0;
+    pointer-events: none;
+}
+
+.u-brand-list .u-brand .u-brand-msg .u-brand-name {
+    width: 80%;
+    overflow: hidden;
+    white-space: nowrap;
+    word-break: keep-all;
+    text-overflow: ellipsis;
+    float: left;
+}
+
+.u-brand-list .u-brand .u-brand-msg .u-brand-name .u-brand-discount {
+    margin-right: .26667rem;
+    color: #e4007f;
+}
+
+.u-brand-list .u-brand .u-brand-msg .u-brand-time {
+    font-size: .37333rem;
+    color: #a0a0a0;
+    float: right;
+}
