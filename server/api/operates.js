@@ -9,10 +9,15 @@ var router = Router()
 // ]
 
 const operate1 = require('../data/operates1.json')
+const operate2 = require('../data/operates2.json')
 
 /* GET users listing. */
 router.get('/operate1', function (req, res, next) {
     res.json(operate1)
+})
+
+router.get('/operate2', function (req, res, next) {
+    res.json(operate2)
 })
 //
 // /* GET user by ID. */
