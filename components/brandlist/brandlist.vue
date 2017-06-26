@@ -6,7 +6,7 @@
                 <a :href="brand.detailurl"
                    class="u-brand-pic J-mars-item" mars_sead="wap_index_specialpos_click" data_mars="1-3"
                    mars_exposure_sead="wap_brand_expose" mars_exposure_module="wap|specials|首页|1402|今日上线|2|5834018">
-                    <img :src="brand.mobile_image_one"
+                    <img v-lazy="brand.mobile_image_one" :src="brand.mobile_image_one"
                          data-original="brand.mobile_image_one"
                          data-onerror="brand.mobile_image_one"
                          data-brandid="5834018" class="brand-mar-star"
@@ -24,6 +24,7 @@
 </template>
 
 <script>
+
     import axios from '~plugins/axios'
     export default {
         name: 'cbrandlist',
