@@ -11,7 +11,7 @@ module.exports = {
             {name: 'description', content: '唯品会手机购物网以1-7折超低折扣对全球各大品牌进行限时特卖，商城内正品囊括服装、化妆品、家居、奢侈品等。100%正品、手机购物下单、货到付款、7天无条件退货。'},
         ],
         script: [
-            // { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.slim.min.js' },
+             //{ src: '_nuxt/js/bscroll.js' },
             // { src: 'https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js' },
             // { src: 'https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js' },
             // { src: 'https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.min.js'}
@@ -27,6 +27,7 @@ module.exports = {
      ** Global CSS
      */
     css: ['~assets/css/main.css'],
+
     /*
      ** Add axios globally
      */
