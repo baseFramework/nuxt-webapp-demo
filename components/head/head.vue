@@ -13,9 +13,9 @@
                     <a href="javascript:;" class="u-icon-px icon-new-logo" mars_sead="nav_home_btn"></a>
                 </div>
                 <div class="u-hd-location">
-                    <div href="javascript:;" class="J-warehouse-btn" rel="area" mars_sead="home_topnav_rovince_btn" data-province="广东" data-parent-code="104104" data-warehouse="VIP_NH">
+                    <a href="javascript:;" class="J-warehouse-btn" rel="area" mars_sead="home_topnav_rovince_btn" data-province="广东" data-parent-code="104104" data-warehouse="VIP_NH">
                         <span class="J-warehouse-txt warehouse-txt">广东</span><span class="u-icon-px icon-arrow-down" data-changestyle="i_down_arrow"></span>
-                    </div>
+                    </a>
                 </div>
             </div>
             <div class="u-hd-right">
