@@ -1,7 +1,7 @@
 <template>
   <div id="J-download-bar" style="display: block !important;">
     <div class="top-download-bar J-download-bar" style="display: block !important;">
-      <a class="download-link J-download-link" mars_sead="index_top_client_download_btn" href="//viva.vip.com/s/mdl"
+      <a class="download-link J-download-link" mars_sead="index_top_client_download_btn" href="javascript:;"
          style="display: block !important;">
         <div class="download-text" style="display: block !important;">
           <p class="text" style="display: block !important;">新会员满￥88元包邮</p>
