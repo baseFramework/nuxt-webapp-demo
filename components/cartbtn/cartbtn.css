@@ -1,0 +1,54 @@
+.u-shopbag {
+    position: fixed;
+    bottom: .6rem;
+    left: .4rem;
+    min-width: 1.2rem;
+    height: 1.2rem;
+    z-index: 1270;
+    background-color: rgba(25,29,38,.95);
+    border-radius: .6rem;
+}
+
+.u-shopbag a {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.u-shopbag .i-flow-carticon {
+    display: block;
+    float: left;
+    width: 1.12rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    font-size: .6rem;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+}
+
+.u-shopbag .u-flow-cartnum {
+    position: absolute;
+    left: .64rem;
+    top: .16rem;
+    width: .37333rem;
+    height: .37333rem;
+    font-style: normal;
+    text-align: center;
+    line-height: .37333rem;
+    background-color: #fbe943;
+    border-radius: .18667rem;
+    color: #4c1f02;
+    font-size: .32rem;
+    display: none;
+}
+
+.u-shopbag .u-flow-carttime {
+    font-size: .48rem;
+    line-height: 1.2rem;
+    font-style: normal;
+    padding-right: .32rem;
+    color: #fff;
+    display: none;
+}

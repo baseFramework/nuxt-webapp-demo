@@ -8,6 +8,7 @@
         <my-operate1 api="/api/operate2"></my-operate1>
         <my-brands></my-brands>
         <my-scrolltop></my-scrolltop>
+        <my-cartbtn></my-cartbtn>
     </section>
 </template>
 
@@ -20,6 +21,7 @@ import MySwipe from '../components/swipe/swipe.vue'
 import MyOperate1 from '../components/operate1/operate1.vue'
 import MyBrands from '../components/brandlist/brandlist.vue'
 import MyScrolltop from '../components/scrolltop/scrolltop.vue'
+import MyCartbtn from '../components/cartbtn/cartbtn.vue'
 
 export default {
     components: {
@@ -29,7 +31,8 @@ export default {
         MySwipe,
         MyOperate1,
         MyBrands,
-        MyScrolltop
+        MyScrolltop,
+        MyCartbtn
     },
   async asyncData () {
     let { data } = await axios.get('/api/users')
