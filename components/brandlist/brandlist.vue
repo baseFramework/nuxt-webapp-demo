@@ -1,7 +1,10 @@
 <template>
-    <div class="brandlistPage u-brand-list" ref="brandsWrapper">
+    <ul class="brandlistPage u-brand-list" ref="brandsWrapper"
+         v-infinite-scroll="loadMore"
+         infinite-scroll-disabled="loading"
+         infinite-scroll-distance="10">
         <div class="u-module-tit">今日特卖 · 每天早10点 晚8点上新</div>
-        <div v-for="(brand, index) in brands" class="u-brand J-u-brand">
+        <li v-for="(brand, index) in brands" class="u-brand J-u-brand">
             <div class="p-relative">
                 <a :href="brand.detailurl"
                    class="u-brand-pic J-mars-item" mars_sead="wap_index_specialpos_click" data_mars="1-3"
@@ -19,8 +22,8 @@
                 </p>
                 <div class="J-brand-leavetime u-brand-time" data-now="1498455751000" data-to="1498701599000">剩2天</div>
             </div>
-        </div>
-    </div>
+        </li>
+    </ul>
 </template>
 
 <script>
@@ -29,40 +32,32 @@
         name: 'cbrandlist',
         data: function () {
             return {
-                brands: []
+                brands: [],
+                currentPage:0,
+                pageSize:10,
+                total:11
             }
         },
         created: function () {
-            let me = this
-            let api = '/api/brands'
-            axios.get(api, {
-                params: {
-                    currentPage: 1,
-                    pageSize: 10
-                }
-            }).then(function (res) {
-                me.brands = res.data.data.items
-                me.$nextTick(() => {
-                   me._initScroll();
-                });
-            })
+
         },
         methods: {
-            _initScroll() {
-                //console.log(this.$refs.brandsWrapper)
-             //   console.log( new BScroll())
-//                if (this.$refs.brandsWrapper) {
-//                    this.brnadsScroll = new BScroll(this.$refs.brandsWrapper, {
-//                        click: true,
-//                        probeType: 1,
-//                        bounce: true,
-//                    });
-//                    this.brnadsScroll.on('scroll', (pos) => {
-//                        this.scrollY = Math.abs(Math.round(pos.y));
-//                        console.log(scrollY);
-//                    });
-//                }
-
+            loadMore() {
+                if(this.total > (this.currentPage * this.pageSize)-1){
+                    let me = this
+                    me.currentPage++
+                    me.loading = true
+                    let api = '/api/brands'
+                    axios.get(api, {
+                        params: {
+                            currentPage: me.currentPage,
+                            pageSize: me.pageSize
+                        }
+                    }).then(function (res) {
+                        me.total = parseInt(res.data.data.total);
+                        me.brands = me.brands.concat(res.data.data.items)
+                    })
+                }
             },
         }
     }
