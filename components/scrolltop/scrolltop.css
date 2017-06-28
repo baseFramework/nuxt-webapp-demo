@@ -1,0 +1,22 @@
+.backtop {
+    display: none;
+    position: fixed;
+    right: .4rem;
+    bottom: .6rem;
+    width: 1.17333rem;
+    height: 1.17333rem;
+    border-radius: .58667rem;
+    background-color: rgba(34,34,34,.9);
+    z-index: 1210;
+}
+
+.backtop>i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: .56rem;
+    height: .56rem;
+    margin: -.26667rem 0 0 -.28rem;
+    font-size: .56rem;
+    color: #fff;
+}
